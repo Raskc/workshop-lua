@@ -9,6 +9,7 @@ function Pet(name, status)
 
     function module.feed(self)
         print(string.format("%s has been fed", self.name))
+        self.status = "Fed"
     end
 
     return module
